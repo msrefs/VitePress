@@ -7,7 +7,7 @@
 ## 加入方式
 
 ### 1. 认证加入
-- 访问 [Neotec官网](https://www.neotec.uk) 获取最新群组信息
+- 访问 [Neotec官方博客](https://blog.neotec.uk) 获取最新群组信息
 - 提供有效的Mojang正版ID进行验证
 - 通过审核后获取专属访问权限
 
@@ -39,4 +39,4 @@
 
 **技术支持**  
 contact@neotec.uk  
-服务时间: 工作日 09:00-18:00 GMT
+服务时间: 工作日 09:00-18:00 GMT+8
