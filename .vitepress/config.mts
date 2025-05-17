@@ -31,8 +31,14 @@ export default defineConfig({
 
   themeConfig: {
     footer: {
-      message: '<a href="https://icp.gov.moe/?keyword=20250178/" target="_blank">萌ICP备20250178号</a>',
-      copyright: 'Copyright © 2022-2025 Neotec, All Rights Reserved.  Minecraft是Mojang Studios的商标，本站与Mojang和Microsoft没有从属关系。'
+      message: `
+        <span class="footer-item">Copyright © 2022-2025 Neotec, All Rights Reserved.</span>
+        <span class="footer-separator">|</span>
+        <span class="footer-item"><a href="https://icp.gov.moe/?keyword=20250178/" target="_blank">萌ICP备20250178号</a></span>
+        <span class="footer-separator">|</span>
+        <span class="footer-item">Powered by VitePress</span>
+      `,
+      copyright: 'Minecraft是Mojang Studios的商标，本站与Mojang和Microsoft没有从属关系。'
     },  
     nav: [
       { text: 'Home', link: '/' },
