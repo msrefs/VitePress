@@ -30,6 +30,7 @@ export default defineConfig({
 
 
   themeConfig: {
+    logo: { src: "/logo-square.svg"},
     footer: {
       message: `
         <span class="footer-item">Copyright © 2022-2025 Neotec, All Rights Reserved.</span>

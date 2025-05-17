@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Neotec.官方主页"
-  text: "立足时代，连接万物"
-  tagline: 加入我们的Minecarft服务器
+  text: "Connecting everything"
+  tagline: 欢迎加入我们的Minecarft服务器
   actions:
     - theme: brand
       text: 快速开始
