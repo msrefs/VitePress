@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /Start
+      link: /start
     - theme: brand
       text: 关于我们
       link: /about
@@ -18,11 +18,14 @@ hero:
       link: https://www.neotec.uk/
 
 features:
-  - title: 特点 A
+  - icon: 😃
+    title: 完整周到
     details: 操作简单，新手友好
-  - title: 特点 B
+  - icon: ⌛️
+    title: 稳定快速
     details: 专业的运营团队，拥有三年运维经验
-  - title: 特点 C
+  - icon: 😭
+    title: 出现了问题？
     details: 有问必答的问题解答
 ---
 

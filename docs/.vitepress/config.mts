@@ -2,27 +2,36 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "NeotecWiki",
+  title: "Neotec.",
   description: "Official Description/Dashboard Pages of Neotec.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '文档', link: '/documents' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '文档',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '快速开始', link: '/start' },
+          { text: '关于我们', link: '/about' },
+          { text: '服务器状态', link: '/serverstatus' }
+        ]
+      },
+      {
+        text: '法律性文件',
+        items: [
+          { text: '服务条款', link: '/service-term' },
+          { text: '隐私政策', link: '/privacy-policy' },
+          { text: '开源许可证', link: '/opensource-license' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/msrefs' }
     ]
   }
 })
