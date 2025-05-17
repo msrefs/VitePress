@@ -7,11 +7,12 @@ export default defineConfig({
   head: [
   ['link', { rel: 'stylesheet', href: '/theme/style.css' }]
   ],
-  
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: '关于', link: '/about' },
       { text: '文档', link: '/documents' }
     ],
     
@@ -20,7 +21,7 @@ export default defineConfig({
         text: '文档',
         items: [
           { text: '快速开始', link: '/start' },
-          { text: '关于我们', link: '/about' },
+          { text: '常见问题', link: '/issues' },
           { text: '服务器状态', link: '/serverstatus' }
         ]
       },
