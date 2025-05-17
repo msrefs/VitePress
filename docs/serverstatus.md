@@ -3,7 +3,7 @@
 
 <iframe 
   src="https://minecraft-status-widget.neotec.uk/" 
-  width="60%" 
+  width="350px" 
   height="200px"
   style="border:none;"
 ></iframe>

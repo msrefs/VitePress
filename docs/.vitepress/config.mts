@@ -4,13 +4,17 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Neotec.",
   description: "Official Description/Dashboard Pages of Neotec.",
+  head: [
+  ['link', { rel: 'stylesheet', href: '/theme/style.css' }]
+  ],
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       { text: '文档', link: '/documents' }
     ],
-
+    
     sidebar: [
       {
         text: '文档',
