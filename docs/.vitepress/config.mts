@@ -1,24 +1,55 @@
 import { defineConfig } from 'vitepress'
+import { resolve } from 'path'
+import { fileURLToPath } from 'url'
+import { dirname } from 'path'
 
-// https://vitepress.dev/reference/site-config
+const __dirname = dirname(fileURLToPath(import.meta.url))
+
 export default defineConfig({
   title: "Neotec.",
   description: "Official Description/Dashboard Pages of Neotec.",
   head: [
-  ['link', { rel: 'stylesheet', href: '/theme/style.css' }]
+    ['link', { rel: 'stylesheet', href: '/theme/style.css' }]
   ],
 
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => tag.includes('-')
+      }
+    }
+  },
+
+  vite: {
+    resolve: {
+      alias: {
+        '@': resolve(__dirname, '../../src')
+      }
+    }
+  },
+
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    footer: {
+      message: '<a href="https://icp.gov.moe/?keyword=20250178/" target="_blank">萌ICP备20250178号</a>',
+      copyright: 'Copyright © 2022-2025 Neotec, All Rights Reserved.  Minecraft是Mojang Studios的商标，本站与Mojang和Microsoft没有从属关系。'
+    },  
     nav: [
       { text: 'Home', link: '/' },
       { text: '关于', link: '/about' },
-      { text: '文档', link: '/documents' }
+      { text: 'Minecraft 服务器', link: '/mcs' }
     ],
     
     sidebar: [
       {
-        text: '文档',
+        text: '基本信息',
+        items: [
+          { text: '关于我们', link: '/about' },
+          { text: '成员信息', link: '/member' }
+        ]
+      },
+      {
+        text: 'Minecraft 服务器',
         items: [
           { text: '快速开始', link: '/start' },
           { text: '常见问题', link: '/issues' },
