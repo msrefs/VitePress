@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Neotec.官方主页"
   text: "Build Beyond the Code"
-  tagline: 欢迎加入我们的Minecarft服务器
+  tagline: 欢迎加入我们的Minecraft服务器
   actions:
     - theme: brand
       text: 快速开始
