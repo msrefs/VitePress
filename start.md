@@ -4,6 +4,24 @@
 > 请确保已购买**Minecraft Java正版**（非网易版）  
 > [如何验证正版？](https://help.minecraft.net/hc/zh-cn)
 
+## 最低配置:
+
+CPU: Intel i3 / AMD同等级
+
+内存: 4GB (建议8GB以上)
+
+显卡: Intel HD Graphics 4000 或同级
+
+存储: 至少2GB可用空间
+
+推荐配置:
+
+CPU: Intel i5 / AMD Ryzen 5
+
+内存: 16GB
+
+显卡: GTX 1050 / RX 560 或更好
+
 ## 📌 加入步骤
 
 ### 1. 加入QQ群

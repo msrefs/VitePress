@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Neotec.官方主页"
-  text: "Connecting everything"
+  text: "Build Beyond the Code"
   tagline: 欢迎加入我们的Minecarft服务器
   actions:
     - theme: brand

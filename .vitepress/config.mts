@@ -38,13 +38,20 @@ export default defineConfig({
         <span class="footer-item"><a href="https://icp.gov.moe/?keyword=20250178/" target="_blank">萌ICP备20250178号</a></span>
         <span class="footer-separator">|</span>
         <span class="footer-item">Powered by VitePress</span>
+        <span class="footer-separator">|</span>
+        <span class="footer-item">CDN加速由Netlify, Amazon提供</span>
       `,
       copyright: 'Minecraft是Mojang Studios的商标，本站与Mojang和Microsoft没有从属关系。'
     },  
     nav: [
-      { text: 'Home', link: '/' },
-      { text: '关于', link: '/about' },
-      { text: 'Minecraft 服务器', link: '/mcs' }
+      { text: '主页', link: '/' },
+      { text: '关于我们', link: '/about' },
+      { text: '团队成员', link: '/member' },
+      { text: 'Minecraft整合包', link: '/modpacks' },
+      { text: 'Minecraft服务器', link: '/start' },
+      { text: '服务器状态', link: '/serverstatus' },
+      { text: '服务条款', link: '/service-term' },
+      { text: '隐私政策', link: '/privacy-policy' }
     ],
     
     sidebar: [
@@ -52,7 +59,7 @@ export default defineConfig({
         text: '基本信息',
         items: [
           { text: '关于我们', link: '/about' },
-          { text: '成员信息', link: '/member' }
+          { text: '团队成员', link: '/member' }
         ]
       },
       {
@@ -61,6 +68,17 @@ export default defineConfig({
           { text: '快速开始', link: '/start' },
           { text: '常见问题', link: '/issues' },
           { text: '服务器状态', link: '/serverstatus' }
+        ]
+      },
+      {
+        text: 'Minecraft 整合包',
+        items: [
+          { text: '概述', link: '/modpacks' },
+          { text: '整合包：Neo', link: '/modpack-Neo' },
+          { text: '整合包：Neutron', link: '/modpack-Neutron' },
+          { text: '早期整合包', link: '/modpack-discarded' },
+          { text: '常见问题', link: '/modpack-issues' },
+          { text: '维护状态', link: '/modpack-status' }
         ]
       },
       {
