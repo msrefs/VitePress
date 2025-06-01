@@ -40,7 +40,7 @@ export default defineConfig({
         <span class="footer-separator">|</span>
         <span class="footer-item">Powered by VitePress</span>
         <span class="footer-separator">|</span>
-        <span class="footer-item">CDN加速由Netlify, Amazon提供</span>
+        <span class="footer-item">CDN加速由 Vercel 提供</span>
       `,
       copyright: 'Minecraft是Mojang Studios的商标，本站与Mojang和Microsoft没有从属关系。'
     },  

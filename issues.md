@@ -21,23 +21,12 @@ A:
 ## Q3: 需要准备哪些硬件？
 A:
 
-最低配置:
-
-CPU: Intel i3 / AMD同等级
-
-内存: 4GB (建议8GB以上)
-
-显卡: Intel HD Graphics 4000 或同级
-
-存储: 至少2GB可用空间
-
-推荐配置:
-
-CPU: Intel i5 / AMD Ryzen 5
-
-内存: 16GB
-
-显卡: GTX 1050 / RX 560 或更好
+| 模组规模 | CPU 推荐 | 显卡 (GPU) | 内存 (RAM) | 存储 (SSD/NVMe) | 操作系统 | 备注 |
+|----------|----------|------------|------------|----------------|----------|------|
+| **轻量模组**<br>(50个以下) | Intel i5-10400F<br>AMD Ryzen 5 3600 | NVIDIA GTX 1650<br>AMD RX 6400 | 8GB (分配4-6GB) | 256GB SATA SSD | Win 10/11, Linux | 适用小型整合包（如FTB Academy） |
+| **中量模组**<br>(50-150个) | Intel i5-12400F<br>AMD Ryzen 5 5600X | NVIDIA RTX 3060<br>AMD RX 6600 | 16GB (分配6-8GB) | 512GB NVMe SSD | Win 10/11 | 需JVM参数优化（如Aikar's Flags） |
+| **重量模组**<br>(150-300个) | Intel i7-12700K<br>AMD Ryzen 7 5800X3D | NVIDIA RTX 4070<br>AMD RX 7800 XT | 32GB (分配8-12GB) | 1TB NVMe SSD | Win 11 | 大型整合包（如GTNH、ATM9）必备 |
+| **极限模组**<br>(300+个) | Intel i9-13900K<br>AMD Ryzen 9 7950X3D | NVIDIA RTX 4080<br>AMD RX 7900 XTX | 64GB (分配12-16GB) | 2TB NVMe SSD | Win 11 | 需搭配Rubidium+Canary优化套件 |
 
 # 连接服务器篇
 
