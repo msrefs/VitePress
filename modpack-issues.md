@@ -36,7 +36,7 @@ description: 纯Markdown格式的整合包问题解答
 
 1. 解压存档包（.7z/.zip）  
 2. 将文件夹放入以下路径：  
-   ```path
+   ```txt
    .minecraft/saves/
    ```  
 3. 确认整合包版本匹配  
@@ -107,6 +107,7 @@ description: 纯Markdown格式的整合包问题解答
    [ERROR] xxxx  
    ```  
 3. 复现步骤：  
+   ```
    - 步骤1  
    - 步骤2  
-```
+   ```

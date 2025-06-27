@@ -30,7 +30,7 @@ Aaalu、Locky、DANstttt、Mainstage.
 Morshuo、ink、Far apart、Samuel_Rodrigues、Khreacas.
 
 <script setup>
-import TeamMember from './components/TeamMember.vue'
+import TeamMember from './components/TeamMember.vue';
 
 const team = [
   {
