@@ -173,9 +173,6 @@ tbody tr {
 tbody tr:nth-child(even) {
   background-color: #eef1f4;
 }
-tbody tr:hover {
-  background-color: #d7ecec;
-}
 
 /* 表尾样式：添加背景色 */
 tfoot td {
