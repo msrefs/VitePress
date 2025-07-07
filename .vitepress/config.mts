@@ -8,9 +8,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 export default defineConfig({
   title: "Neotec.",
   description: "Official Description/Dashboard Pages of Neotec.",
-  head: [
-    ['link', { rel: 'stylesheet', href: '/theme/style.css' }]
-  ],
 
   vue: {
     template: {
@@ -47,11 +44,21 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '关于我们', link: '/about' },
-      { text: 'Minecraft整合包', link: '/modpacks' },
+      { text: 'Minecraft整合包', 
+          items: [
+          { text: '概述', link: '/modpacks' },
+          { text: '整合包：Neo', link: '/modpack-Neo' },
+          { text: '整合包：Neutron', link: '/modpack-Neutron' },
+          { text: '早期整合包', link: '/modpack-discarded' },
+          { text: '常见问题', link: '/modpack-issues' },
+          { text: '维护状态', link: '/modpack-status' }
+        ],
+      },
       {
         text: "Minecraft服务器",
         items: [
           { text: '快速开始', link: '/start' },
+          { text: '常见问题', link: '/issues' },
           { text: '服务器状态', link: '/serverstatus' }
         ],
       },

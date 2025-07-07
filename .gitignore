@@ -3,3 +3,6 @@
 # vitepress build output
 .vitepress/dist
 .vitepress/cache
+
+# macOS shit
+.DS_Store
