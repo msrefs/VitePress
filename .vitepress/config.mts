@@ -9,6 +9,17 @@ export default defineConfig({
   title: "Neotec.",
   description: "Official Description/Dashboard Pages of Neotec.",
 
+  head: [
+    [
+      'script',
+      {
+        defer: 'defer',
+        src: 'https://umami.refact.cc/script.js',
+        'data-website-id': 'b38c9afc-7606-4589-91a5-d0ab124a398d'
+      }
+    ]
+  ],
+  
   vue: {
     template: {
       compilerOptions: {
